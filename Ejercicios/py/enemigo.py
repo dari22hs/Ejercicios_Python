@@ -211,4 +211,3 @@ class LaGorda(Enemigo):
         super().atacar()
         print(f"{self.tipo} ha ganado {self.succion} de energía.")
         self.energia += self.succion
-

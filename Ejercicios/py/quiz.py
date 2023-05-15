@@ -46,3 +46,52 @@ print(a+b)  # Output -> 22  -> Junta las cadenas'''
 
 
 print(fun())  # Output -> strchar -> Junta las cadenas '''
+
+# Quiz 9
+
+'''myList = [3, 2, 1, 4, 5]
+result = sorted(myList)[2:]
+print(result)  # Output -> [3, 4, 5]'''
+
+# Quiz 10
+
+'''try: print(1)
+except: print(2)
+finally: print(3)'''
+
+# Output -> 1, 3
+
+# Quiz 11
+
+'''x, y = 5, 3
+result = (x ** y) % 4
+print(result) # Output -> 1'''
+
+# Quiz 12
+
+'''a = 100
+b= 5
+print(a//b*a/b) # Output -> 400.0'''
+
+# Quiz 13
+
+
+def my_fun(n):
+    if n == 1:
+        return 1
+    else:
+        return n + my_fun(n - 1)
+
+
+print(my_fun(5)) # Output -> 15
+# def print_pine_tree(n):
+#     if n < 4:
+#         print("Nope. Make it at least 4.")
+#     else:
+#         for i in range(n):
+#             print(" " * (n - i - 1) + "*" * (2 * i + 1))
+#         for i in range(2):
+#             print(" " * (n - 2) + "***")
+#
+#
+# print_pine_tree(15)
