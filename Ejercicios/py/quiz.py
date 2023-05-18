@@ -158,6 +158,46 @@ while num > 0:
 print(f(2, 3)) # Output -> 8'''
 
 # Quiz 25
+'''x = 5
+while x > 0:
+    x -= 1
+    if x == 2:
+        continue
+    print(x) # Output 4 3 1 0'''
+
+# Quiz 26
+'''myList = [1, 2, 3, 4, 5]
+for i in range(len(myList)):
+    myList[i] += 1
+print(myList) # Output -> [2, 3, 4, 5, 6]'''
+
+# Quiz 27
+'''for num in range(10):
+    if num < 5:
+        continue
+    elif num > 8:
+        break
+    print(num, end=" ") # Output 5 6 7 8'''
+
+# Quiz 28
+'''numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    if num % 2 == 0:
+        continue
+    print(num ** 2, end=" ") # Output -> 1 9 25'''
+
+# Quiz 29
+'''i = 0
+while i < 5:
+    i += 1
+    if i == 3:
+        continue
+    print(i, end=" ") # Output -> 1 2 4 5'''
+
+# Quiz 30
+numbers = [1, 2, 3, 4, 5]
+result = [n for n in numbers if n % 2 == 0]
+print(result) # Output -> [2, 4]
 
 # def print_pine_tree(n):
 #     if n < 4:
