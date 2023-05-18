@@ -76,14 +76,89 @@ print(a//b*a/b) # Output -> 400.0'''
 # Quiz 13
 
 
-def my_fun(n):
+'''def my_fun(n):
     if n == 1:
         return 1
     else:
         return n + my_fun(n - 1)
 
 
-print(my_fun(5)) # Output -> 15
+print(my_fun(5)) # Output -> 15'''
+
+# Quiz 14
+'''a = [1, 2, 3]
+b = a.copy()
+print(a == b, a is b) # Output -> True False'''
+
+# Quiz 15
+'''x = 10
+y = 3
+result = x // y + x % y
+print(result) # Output -> 4'''
+
+# Quiz 16
+'''aTuple = 1, 2, 3
+a, b, c = aTuple
+print(a) # Output -> 1'''
+
+# Quiz 17
+'''a = 4/5
+b = 5//4
+print(a * b) # Output -> 0.8'''
+
+# Quiz 18
+'''for i in range(1, 5):
+    for j in range(i):
+        if i % j == 0:
+            break
+        else:
+            print(i, end="")'''
+# Output -> ZeroDivisionError: integer division or modulo by zero
+
+# Quiz 19
+'''x = 10
+y = 3
+result = x / y
+print(result) # Output -> 3.3333333333333335'''
+
+# Quiz 20
+'''a = "python"
+b = "hub"
+print(a[1:] + b[1:]) # Output -> "ythonub"'''
+
+# Quiz 21
+'''x = 0
+while x < 3:
+    x += 1
+else:
+    print(x) # Output -> 3'''
+
+# Quiz 22
+'''num = 6
+while num >= 0:
+    print(num, end="")
+    num -= 2 if num % 3 == 0 else 1'''
+    # Output -> 64310
+
+# Quiz 23
+'''num = 7
+while num > 0:
+    print(num, end="")
+    num //= 2'''
+    # Output -> 731
+
+# Quiz 24
+
+
+'''def f(x, y):
+    x = y + 2
+    return x + y
+
+
+print(f(2, 3)) # Output -> 8'''
+
+# Quiz 25
+
 # def print_pine_tree(n):
 #     if n < 4:
 #         print("Nope. Make it at least 4.")
