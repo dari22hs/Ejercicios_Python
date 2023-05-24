@@ -195,10 +195,21 @@ while i < 5:
     print(i, end=" ") # Output -> 1 2 4 5'''
 
 # Quiz 30
-numbers = [1, 2, 3, 4, 5]
+'''numbers = [1, 2, 3, 4, 5]
 result = [n for n in numbers if n % 2 == 0]
-print(result) # Output -> [2, 4]
+print(result) # Output -> [2, 4]'''
 
+# Quiz 31
+'''e = "butter"
+def f(a): print(a) + e
+f("bitter")'''
+# Output -> TypeError: unsupported operand type(s) for +: 'NoneType' and 'str' -> '+ e' should be inside the parentheses
+
+# Quiz 32
+def func(x, y, z=5):
+    print(x, y, z)
+func(1, z=2, y=3)
+#Output -> 1 3 2
 # def print_pine_tree(n):
 #     if n < 4:
 #         print("Nope. Make it at least 4.")
